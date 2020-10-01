@@ -32,8 +32,12 @@ namespace PalindromeNumber
             long xReversed = 0; // 逆になった整数
             int xDigit = 1;     // 引数の桁数
 
-            // 負の数は回文にならない
-            if (x < 0)
+            // 計算の必要が無い数
+            if (x == 0)
+            {
+                return true;
+            }
+            else if(x < 0)
             {
                 return false;
             }
