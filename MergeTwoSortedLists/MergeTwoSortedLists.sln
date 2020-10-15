@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoSortedLists", "MergeTwoSortedLists\MergeTwoSortedLists.csproj", "{A59D3454-CE55-4A7E-8070-93850D7E255C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A59D3454-CE55-4A7E-8070-93850D7E255C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59D3454-CE55-4A7E-8070-93850D7E255C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59D3454-CE55-4A7E-8070-93850D7E255C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59D3454-CE55-4A7E-8070-93850D7E255C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91FEE94B-5AF4-48B9-BC9B-7EF68C62282E}
+	EndGlobalSection
+EndGlobal
