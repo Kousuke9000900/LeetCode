@@ -11,7 +11,7 @@ namespace ValidParentheses
         static void Main(string[] args)
         {
             // 試行用のプログラム
-            string testArgment = "()";
+            string testArgment = "(())";
             Program program = new Program();
             Console.WriteLine("試行結果は" + program.IsValid(testArgment) + "でした");
             Console.ReadKey();
@@ -48,8 +48,8 @@ namespace ValidParentheses
                 return false;
             }
 
-            // 対応する括弧か確認
-                for (int i = 0; i <= s.Length * 2; i++)
+            // 対応する括弧か確認（試行回数何回やるのか）
+                for (double i = 0; i <= (1.0 / 2.0 * System.Math.Pow(s.Length / 2.0 , 2)) + (3.0 / 2.0 * s.Length / 2); i++) // 階差数列で試行回数を求める
             {
                 // 括弧抽出
                 currentParenthesis = subStringS.Substring(currentWordCount, 1);
@@ -117,13 +117,13 @@ namespace ValidParentheses
                             currentWordCount = 0;  // 初期化
                         }
                         break;
-                }
 
-                currentWordCount++;
-
+                    default:
+                        currentWordCount++;
+                        break;
+                }                     
             }
-
-            return true;
+            return true;            
         }
     }
 }
